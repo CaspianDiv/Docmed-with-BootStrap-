@@ -1,0 +1,226 @@
+header{
+    height: 50vh;
+    text-align: center;
+}
+
+#head-title{
+    background: #f1f1f1;
+    padding: 15px;
+}
+#head-title p{padding: 10px;}
+.fa-brands{
+    color: gray;
+    padding: 5px 15px;
+}
+.fa-solid{
+    color: #5DB2FF;
+}
+a{
+    color: #919191;
+    font: normal .8em "Poppins",sans-serif;
+}
+.carousel-inner-title1 h4{
+    font: 700 2em "Poppins";
+    letter-spacing: 3px;
+}
+.carousel-inner-title1 h3{
+    font: 300 1.5em "Poppins";
+    letter-spacing: 3px;
+}
+
+#check button{
+    position: absolute;
+    top: 84%;
+    left: 4%;
+    border: 0;
+    transform: 250ms all;
+    cursor: pointer;
+    outline: 0;
+    padding: 5px 44px;
+    width: 20%;
+    font: bold .9em "Poppins",sans-serif;
+    color: #fff;
+    background: #3CA0FB;
+    text-transform: capitalize;
+}
+#check button:hover{
+    background: #fff;
+    border: 1px solid #3CA0FB;
+    color: #5DB2FF;
+}
+.btn-nav{
+    transform: 250ms all;
+    outline: 0;
+    border: 0;
+    background: #3CA0FB;  
+    color: #fff;
+    padding: 10px 15px;
+    font: 300 .9em "Poppins",sans-serif;
+}
+.btn-nav:hover{
+    background: #fff;
+    border: 1px solid #3CA0FB;
+    color: #5DB2FF;
+}
+div button:hover{
+    background: #fff;
+}
+.bg-dark-blue{background: #5DB2FF;}
+.fa-kit-medical{
+    font-size: 3em;
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px;
+}
+.img2{
+    display: none;
+}
+
+.docmed-content hr{
+    width: 25%;
+    border: 2px solid #3CA0FB;
+}
+
+#icons1 button:hover{
+    background: #3CA0FB;
+    color: #fff;
+}
+.learn-more-btn{
+    border: 1px solid #3CA0FB;
+    background: none;
+    text-transform: capitalize;
+    color: #5DB2FF;
+    padding: 10px 20px;
+    transition: 250ms all;
+    border-radius: 10px;
+}
+#our-departments hr{
+    width: 25%;
+    border: 2px solid  #5DB2FF;
+    margin: auto;
+}
+#our-departments p{
+    font: 300 1em "Poppins",sans-serif;
+    padding: 10px 0;
+}
+.parent{overflow: hidden;}
+.card .parent img{
+    transition: 250ms all;
+}
+.card .parent:hover img{
+    scale: 1.1;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px;
+    color: #5DB2FF;
+    font: normal 1em "Poopins",sans-serif;
+}
+.card a:hover{text-decoration: underline;}
+#asana-img{background: url('../img/1.png\ \(1\).webp')center/cover;}
+#asana-img hr{
+    width: 15%;
+    display: inline-block;
+    background: #fff;
+    margin: auto;
+}
+.container-service * h4{
+    font: 400 1.2em "Poppins",sans-serif;
+    padding: 0;
+}
+.fa-notes-medical{
+    color: #fff;
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 3em;
+    background: #3CA0FB;
+    border-radius: 50%;
+}
+.expert-container .card:hover{transition: 250ms all;}
+.expert-container .card:hover{
+    background: #3CA0FB;
+    color: #fff;
+}
+
+#emergency{
+    background: url('../img/emergency-1.png.webp')center/cover;
+    padding: 30px;
+}
+#emergency2{
+    background: url('../img/emergency-2.png.webp') center/cover;
+    padding: 30px;
+}
+.btn-foot button{
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    transition: 250ms all;
+    outline: 0;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.btn-foot button:hover{
+    background: #ffff;
+    color: #3CA0FB;
+}
+#icons i{
+    display: inline-block;
+    padding: 20px;
+    background: #707070;
+    color: #BABABA;
+    border-radius: 10px;
+}
+#icons{
+    padding: 20px 0 0 0;
+}
+footer .bg-dark a:hover{
+    color: #3CA0FB;
+    text-decoration: none;
+}
+footer .bg-dark a{
+    color: #919191;
+    display: block;
+}
+@media only screen and (min-width: 768px){  
+   
+    .img1{
+        display: flex;
+        position: absolute;
+        left: 5%;
+    }
+    .img2{
+        display: flex;
+        position: absolute;
+        top: 170%;
+        left: 20%;
+        display: initial;
+    }
+    .docmed-container{
+        display: inline-block;
+        width: 40%;
+        margin: 0 0 0 50%;
+    }
+    .card-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card-container .card{
+        width: 30%;
+    }
+    #our-departments hr{
+        width: 10%;
+    }
+    #our-departments h4{
+        padding: 15% 0 0 0;
+    }
+
+    #emergency{
+        width: 50%;
+    }
+    #emergency2{
+        width: 50%;
+    }
+   
+}
